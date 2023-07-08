@@ -1,0 +1,46 @@
+.restaurant-details {
+  width: 50%;
+  margin: auto;
+}
+.text {
+  display: flex;
+  justify-content: space-between;
+}
+.text p {
+  color: #a7a7a7;
+  margin: 10px 0;
+}
+.add-review-btn {
+  height: fit-content;
+  align-self: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background: #ef4f5f;
+  color: white;
+  cursor: pointer;
+}
+.rating {
+  background-color: green;
+  color: yellow;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  gap: 2px;
+  border-radius: 10px;
+}
+
+.rating-container img {
+  width: 40px;
+  border-radius: 50%;
+}
+.rating-inner-container {
+  display: flex;
+  justify-content: space-between;
+}
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

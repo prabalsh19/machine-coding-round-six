@@ -1,0 +1,9 @@
+.restaurant {
+  margin: 2rem 5rem;
+}
+.restaurant a {
+  font-size: larger;
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}

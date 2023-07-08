@@ -1,0 +1,56 @@
+.add-review {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 20rem;
+  min-height: 18rem;
+  background: #ef4f5f;
+  color: white;
+  box-shadow: rgba(91, 97, 103, 0.2) 0px 8px 24px;
+  border-radius: 1rem;
+}
+.add-review > h2 {
+  text-align: center;
+}
+.heading {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+.heading hr {
+  border: 1px solid white;
+}
+.review-inputs {
+  margin: 2rem;
+}
+.review-input {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+.review-input select {
+  padding: 5px;
+}
+.review-input input {
+  padding: 10px 5px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+.submit-btn {
+  padding: 10px 20px;
+  display: inline-block;
+  margin: 0 7.5rem;
+  border: none;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.cross-icon {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size: larger;
+  cursor: pointer;
+}

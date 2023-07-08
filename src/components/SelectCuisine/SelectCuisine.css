@@ -1,0 +1,13 @@
+.select-cuisine {
+  text-align: center;
+}
+.cuisines > button {
+  margin-right: 1rem;
+  padding: 10px 20px;
+  cursor: pointer;
+  background: #ef4f5f;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  font-size: 1.1rem;
+}

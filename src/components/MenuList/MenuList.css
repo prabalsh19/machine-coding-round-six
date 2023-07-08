@@ -1,0 +1,26 @@
+.menu-list {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  padding: 1rem 0;
+}
+.dish-card {
+  border-radius: 1rem;
+  box-shadow: rgba(91, 97, 103, 0.2) 0px 8px 24px;
+  height: 300px;
+  width: 250px;
+  border-radius: 1rem;
+}
+.dish-card > img {
+  height: 180px;
+  width: 250px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.details {
+  padding: 10px;
+}
+.details p {
+  color: #a7a7a7;
+  margin: 5px 0;
+}
